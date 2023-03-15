@@ -10,7 +10,7 @@ function main() {
     
     ui.showQuestion(quiz.getQuestionIndex().text);
 
-    //ui.showQuestion(quiz.getQuestionIndex().choices);
+    ui.showChoices(quiz.getQuestionIndex().choices);
 
 }
 
