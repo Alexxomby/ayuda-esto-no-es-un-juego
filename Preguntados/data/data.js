@@ -1,4 +1,5 @@
-const data =[
+
+    export const data =[
 
     {
         question:"¿Cuál es el planeta de origen de los Transformers?",

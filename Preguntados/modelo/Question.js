@@ -1,5 +1,5 @@
 
-export class Pregunta {
+export class Question {
     /**
      * 
      * @param {string} text el texto de la pregunta
@@ -19,7 +19,7 @@ export class Pregunta {
      * @returns {boolean} regreas cerdadero si la respuesta es correcta
      */
     respuestaCock(choice){
-        return choice === this.answer 
+        return choice === this.answer;
     }
 }
 
