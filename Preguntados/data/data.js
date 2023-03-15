@@ -11,7 +11,7 @@
         question:"¿Cuál es el apellido del famoso mago Harry?",
         choices:["A) Weasley ", "B) Potter", "C) Granger " , "D) Malfoy "],
         answer: " B) Potter",
-    }, 
+    },  
 
     {
         question:"¿Cuál es la marca de automóviles que produce el modelo Mustang?",
