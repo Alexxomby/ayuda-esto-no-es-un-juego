@@ -22,8 +22,10 @@ const renderPage =  (quiz,ui) =>{
 
     if(quiz.idEnded()){
 
-        console.log(quiz.scorepos)
-        ui.showScores(quiz.scorepos);
+        
+        ui.showScores(quiz.scorepos,quiz.scoreneg);
+       
+        
     }else{
 
     ui.showQuestion(quiz.getQuestionIndex().text);
