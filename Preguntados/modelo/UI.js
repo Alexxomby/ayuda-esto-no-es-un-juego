@@ -45,7 +45,7 @@ export class UI{
             <h2>Tu puntuacion: ${scorepos}</h2>
             `;
 
-        const element = getElementById("quiz");
+        const element = document.getElementById("quiz");
 
         element.innerHTML = quizEndHTML;
     }
