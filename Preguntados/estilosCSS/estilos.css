@@ -2,6 +2,16 @@ html, body{
     padding: 0;
     margin:0;
 }
+
+#tutorial {
+    display: none;
+    color: #F5F5F5;
+}
+
+#tutorial.mostrar {
+    display: block;
+}
+
 #espacio{
     margin-top: 20px;
     margin-bottom: 30px;

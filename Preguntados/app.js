@@ -4,6 +4,14 @@ import { Quiz } from "./modelo/Quiz.js";
 import { UI } from "./modelo/UI.js";
 
 
+const btnTutorial = document.getElementById("btn-tutorial");
+const tutorial = document.getElementById("tutorial");
+
+    btnTutorial.addEventListener("click", () => {
+    tutorial.classList.toggle("mostrar");
+});
+
+
 /**
  * 
  * @param {Quiz} quiz the main quiz object

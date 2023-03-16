@@ -9,8 +9,8 @@
 
     {
         question:"¿Cuál es el apellido del famoso mago Harry?",
-        choices:["A) Weasley ", "B) Potter", "C) Granger " , "D) Malfoy "],
-        answer: " B) Potter",
+        choices:["A) Weasley ", "B) Malfoy", "C) Granger " , "D) Potter"],
+        answer: "D) Potter",
     },  
 
     {
@@ -21,8 +21,8 @@
 
     {
         question:"¿En qué ciudad se encuentra la Torre Eiffel?",
-        choices:["A) Nueva York", "B) Londres", "C) París", "D) Berlín"],
-        answer: "C) París",
+        choices:["A) Nueva York", "B) París", "C) Londres", "D) Berlín"],
+        answer: "B) París",
     },
     
     {
