@@ -7,9 +7,21 @@ html, body{
     display: none;
     color: #F5F5F5;
 }
+.parte2_contenedor{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #tutorial.mostrar {
     display: block;
+}
+.tutorial-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    flex-wrap: wrap;
+    height: 20vh;
 }
 
 #espacio{
@@ -23,6 +35,15 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+p{
+    color: bisque;
+}
+.partesup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #quiz{
@@ -43,7 +64,9 @@ h1{
     color: #001F3F;
 
 }
-
+a{
+    font-style: normal;
+}
 button{
     background-color:#3366CC;
     color: white;

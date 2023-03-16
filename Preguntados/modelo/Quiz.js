@@ -34,6 +34,7 @@ export class Quiz {
     guess(answer){
 
         if (this.getQuestionIndex().respuestaCock(answer)){
+            this.scorepos=1
             this.scorepos ++
         }else{
             this.scoreneg ++

@@ -38,11 +38,14 @@ export class UI{
      * 
      * @param {numero} scorepos 
      */
-    showScores(scorepos){
+    showScores(scorepos,scoreneg){
 
         const quizEndHTML = `
             <h1> Resultado </h1>
             <h2>Tu puntuacion: ${scorepos}</h2>
+            <h2>Tu puntuacion mala: ${scoreneg}</h2>
+            <button>
+            <a href="parte2.html">partedos</a></button>
             `;
 
         const element = document.getElementById("quiz");
